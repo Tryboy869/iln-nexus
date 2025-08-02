@@ -465,4 +465,4 @@ python -c "from iln import ILN; ILN().demo()"
 [![GitHub stars](https://img.shields.io/github/stars/iln-nexus/core.svg?style=social&label=Star)](https://github.com/iln-nexus/core/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/iln-nexus/core.svg?style=social&label=Fork)](https://github.com/iln-nexus/core/network)
 
-*Built with ❤️ by [Anzize Daouda](https://github.com/AnzizeDaouda) - Architect of Language Unification*
+*Built with ❤️ by [Anzize Daouda](https://github.com/Tryboy869) - Architect of Language Unification*
