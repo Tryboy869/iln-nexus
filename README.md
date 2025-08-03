@@ -92,7 +92,7 @@ result = iln.level2("""
 # All coordinated seamlessly in your preferred language
 ```
 
-🎯 **Proof:** Check our [WebPilot API Demo](https://webpilot-api.onrender.com/) - Level 2 architecture coordinating multiple engines for 400x web compression.
+🎯 **Proof:** Check our [WebPilot API Demo](https://ai-web-navigator-demo-8hxj.onrender.com/) - Level 2 architecture coordinating multiple engines for 400x web compression.
 
 ### 💎 Level 3: Strategic Champions (Pro Only)
 Your base language "speaks" through an optimal champion language that then imitates all others:
@@ -180,7 +180,7 @@ iln --info
 | Bug Rate | 15-25/1000 LOC | 2-5/1000 LOC | **80% reduction** |
 | Context Switching | High cognitive load | Single paradigm | **Eliminated** |
 
-🎯 **Real Proof:** Our [AI Web Navigator](https://ai-web-navigator-ddz5.onrender.com/) replaced 2000+ lines of multi-language code with 200 lines of ILN architecture.
+🎯 **Real Proof:** Our [AI Web Navigator](https://ai-web-navigator-j5kp.onrender.com/?#demo) replaced 2000+ lines of multi-language code with 200 lines of ILN architecture.
 
 ## 🧪 Try ILN Right Now
 
