@@ -27,7 +27,7 @@ ILN isn't theory - it's running in production right NOW:
 |------|---------------------------|-------------|
 | 🌐 **AI Web Navigator** | WebPilot + Groq AI + Multi-Engine Coordination | [LIVE DEMO →](https://ai-web-navigator-j5kp.onrender.com/?#demo) |
 | 🚀 **AI Navigator Demo** | Complete ILN-powered Web Intelligence | [LIVE DEMO →](https://ai-web-navigator-demo-8hxj.onrender.com/) |
-| 🌐 **WebPilot API** | Nokia 2010 Mode - 400x Web Compression | [LIVE DEMO →](https://webpilot-api.onrender.com/) |
+| 🌐 **WebPilot API** | Nokia 2010 Mode - 400x Web Compression | [LIVE DEMO →](https://iln-pro-api.onrender.com/) |
 | ⚡ **Fusion EL4X** | Multi-Engine Fusion Architecture | [LIVE DEMO →](https://fusion-el4x.onrender.com/) |
 | 🧠 **NSS Nexus Studio** | Unified Development Environment | [LIVE DEMO →](https://nss-nexus-studio-server.onrender.com/) |
 | 🔮 **Nexus Memory** | Contextual Memory Management | [LIVE DEMO →](https://nexus-contextual-memory.onrender.com/) |
