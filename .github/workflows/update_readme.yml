@@ -1,0 +1,43 @@
+
+# .github/workflows/update_readme.yml
+name: Update README Stats
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  schedule:
+    # Met à jour toutes les heures
+    - cron: '0 * * * *'
+  star:
+    types: [created]
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      # Donne la permission à l'action d'écrire dans le dépôt
+      contents: write
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run update script
+        run: python scripts/update_stats.py
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          # Ne commite et ne pousse que s'il y a des changements dans le README
+          git diff --quiet README.md || (git add README.md && git commit -m "docs: ✨ Auto-update README stats" && git push)
